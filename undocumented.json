@@ -1,0 +1,754 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/runner/work/Collector/Collector/Sources/Collector/Metrics/Metric.swift",
+      "line": 4,
+      "symbol": "Metric",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Collector/Collector/Sources/Collector/Metrics/Metric.swift",
+      "line": 6,
+      "symbol": "Metric.counter(label:dimensions:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Collector/Collector/Sources/Collector/Metrics/Metric.swift",
+      "line": 14,
+      "symbol": "Metric.recorder(label:dimensions:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Collector/Collector/Sources/Collector/Metrics/Metric.swift",
+      "line": 22,
+      "symbol": "Metric.gauge(label:dimensions:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Collector/Collector/Sources/Collector/Metrics/Metric.swift",
+      "line": 30,
+      "symbol": "Metric.timer(label:dimensions:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Collector/Collector/Sources/Collector/Tracing/Agent/Agent.swift",
+      "line": 2,
+      "symbol": "Agent",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Collector/Collector/Sources/Collector/Tracing/Agent/Agent.swift",
+      "line": 3,
+      "symbol": "Agent.record(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Collector/Collector/Sources/Collector/Tracing/Agent/BasicAgent.swift",
+      "line": 2,
+      "symbol": "BasicAgent",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Collector/Collector/Sources/Collector/Tracing/Agent/BasicAgent.swift",
+      "line": 6,
+      "symbol": "BasicAgent.sender",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Collector/Collector/Sources/Collector/Tracing/Agent/BasicAgent.swift",
+      "line": 7,
+      "symbol": "BasicAgent.interval",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Collector/Collector/Sources/Collector/Tracing/Agent/BasicAgent.swift",
+      "line": 16,
+      "symbol": "BasicAgent.init(interval:sender:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Collector/Collector/Sources/Collector/Tracing/Agent/BasicAgent.swift",
+      "line": 24,
+      "symbol": "BasicAgent.record(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Collector/Collector/Sources/Collector/Tracing/Agent/BasicAgent.swift",
+      "line": 34,
+      "symbol": "BasicAgent.send()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Collector/Collector/Sources/Collector/Tracing/Agent/TraceSender.swift",
+      "line": 2,
+      "symbol": "TraceSender",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Collector/Collector/Sources/Collector/Tracing/Agent/TraceSender.swift",
+      "line": 3,
+      "symbol": "TraceSender.send(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Collector/Collector/Sources/Collector/Tracing/ContextPropagation/ContextPropagation.swift",
+      "line": 2,
+      "symbol": "ContextPropagation",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Collector/Collector/Sources/Collector/Tracing/ContextPropagation/ContextPropagation.swift",
+      "line": 4,
+      "symbol": "ContextPropagation.Key",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Collector/Collector/Sources/Collector/Tracing/ContextPropagation/ContextPropagation.swift",
+      "line": 5,
+      "symbol": "ContextPropagation.Key.spanID",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Collector/Collector/Sources/Collector/Tracing/ContextPropagation/ContextPropagation.swift",
+      "line": 6,
+      "symbol": "ContextPropagation.Key.traceID",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Collector/Collector/Sources/Collector/Tracing/ContextPropagation/ContextPropagation.swift",
+      "line": 7,
+      "symbol": "ContextPropagation.Key.isSampled",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Collector/Collector/Sources/Collector/Tracing/ContextPropagation/ContextPropagation.swift",
+      "line": 10,
+      "symbol": "ContextPropagation.Value",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Collector/Collector/Sources/Collector/Tracing/ContextPropagation/ContextPropagation.swift",
+      "line": 11,
+      "symbol": "ContextPropagation.Value.true",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Collector/Collector/Sources/Collector/Tracing/ContextPropagation/ContextPropagation.swift",
+      "line": 12,
+      "symbol": "ContextPropagation.Value.false",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Collector/Collector/Sources/Collector/Tracing/ContextPropagation/Extractor.swift",
+      "line": 2,
+      "symbol": "Extractor",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Collector/Collector/Sources/Collector/Tracing/ContextPropagation/Extractor.swift",
+      "line": 3,
+      "symbol": "Extractor.Carrier",
+      "symbol_kind": "source.lang.swift.decl.associatedtype",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Collector/Collector/Sources/Collector/Tracing/ContextPropagation/Extractor.swift",
+      "line": 4,
+      "symbol": "Extractor.extract(key:from:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Collector/Collector/Sources/Collector/Tracing/ContextPropagation/Extractor.swift",
+      "line": 7,
+      "symbol": "Extractor",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Collector/Collector/Sources/Collector/Tracing/ContextPropagation/Extractor.swift",
+      "line": 9,
+      "symbol": "Extractor.isSampled(from:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Collector/Collector/Sources/Collector/Tracing/ContextPropagation/Extractor.swift",
+      "line": 23,
+      "symbol": "Extractor.spanReference(from:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Collector/Collector/Sources/Collector/Tracing/ContextPropagation/Extractor.swift",
+      "line": 45,
+      "symbol": "Tracer.span(name:startTime:from:using:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Collector/Collector/Sources/Collector/Tracing/ContextPropagation/Injector.swift",
+      "line": 2,
+      "symbol": "Injector",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Collector/Collector/Sources/Collector/Tracing/ContextPropagation/Injector.swift",
+      "line": 3,
+      "symbol": "Injector.Carrier",
+      "symbol_kind": "source.lang.swift.decl.associatedtype",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Collector/Collector/Sources/Collector/Tracing/ContextPropagation/Injector.swift",
+      "line": 4,
+      "symbol": "Injector.inject(_:forKey:into:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Collector/Collector/Sources/Collector/Tracing/ContextPropagation/Injector.swift",
+      "line": 9,
+      "symbol": "Span.propagate(in:using:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Collector/Collector/Sources/Collector/Tracing/Span/Log.swift",
+      "line": 2,
+      "symbol": "Log",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Collector/Collector/Sources/Collector/Tracing/Span/Log.swift",
+      "line": 3,
+      "symbol": "Log.date",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Collector/Collector/Sources/Collector/Tracing/Span/Log.swift",
+      "line": 4,
+      "symbol": "Log.tags",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Collector/Collector/Sources/Collector/Tracing/Span/Span.swift",
+      "line": 2,
+      "symbol": "Span",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Collector/Collector/Sources/Collector/Tracing/Span/Span.swift",
+      "line": 7,
+      "symbol": "Span",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Collector/Collector/Sources/Collector/Tracing/Span/Span.swift",
+      "line": 7,
+      "symbol": "Span.context",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Collector/Collector/Sources/Collector/Tracing/Span/Span.swift",
+      "line": 8,
+      "symbol": "Span.parent",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Collector/Collector/Sources/Collector/Tracing/Span/Span.swift",
+      "line": 9,
+      "symbol": "Span.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Collector/Collector/Sources/Collector/Tracing/Span/Span.swift",
+      "line": 10,
+      "symbol": "Span.isSampled",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Collector/Collector/Sources/Collector/Tracing/Span/Span.swift",
+      "line": 11,
+      "symbol": "Span.startTime",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Collector/Collector/Sources/Collector/Tracing/Span/Span.swift",
+      "line": 12,
+      "symbol": "Span.endTime",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Collector/Collector/Sources/Collector/Tracing/Span/Span.swift",
+      "line": 14,
+      "symbol": "Span.tags",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Collector/Collector/Sources/Collector/Tracing/Span/Span.swift",
+      "line": 15,
+      "symbol": "Span.logs",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Collector/Collector/Sources/Collector/Tracing/Span/Span.swift",
+      "line": 19,
+      "symbol": "Span.isCompleted",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Collector/Collector/Sources/Collector/Tracing/Span/Span.swift",
+      "line": 47,
+      "symbol": "Span.set(_:forKey:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Collector/Collector/Sources/Collector/Tracing/Span/Span.swift",
+      "line": 51,
+      "symbol": "Span.set(_:forKey:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Collector/Collector/Sources/Collector/Tracing/Span/Span.swift",
+      "line": 55,
+      "symbol": "Span.set(_:forKey:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Collector/Collector/Sources/Collector/Tracing/Span/Span.swift",
+      "line": 59,
+      "symbol": "Span.set(_:forKey:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Collector/Collector/Sources/Collector/Tracing/Span/Span.swift",
+      "line": 63,
+      "symbol": "Span.set(_:forKey:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Collector/Collector/Sources/Collector/Tracing/Span/Span.swift",
+      "line": 74,
+      "symbol": "Span.log(_:at:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Collector/Collector/Sources/Collector/Tracing/Span/Span.swift",
+      "line": 81,
+      "symbol": "Span.finish(at:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Collector/Collector/Sources/Collector/Tracing/Span/Span.swift",
+      "line": 87,
+      "symbol": "Span.child(name:startTime:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Collector/Collector/Sources/Collector/Tracing/Span/Span.swift",
+      "line": 95,
+      "symbol": "Span",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Collector/Collector/Sources/Collector/Tracing/Span/Span.swift",
+      "line": 97,
+      "symbol": "Span.Context",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Collector/Collector/Sources/Collector/Tracing/Span/Span.swift",
+      "line": 98,
+      "symbol": "Span.Context.traceID",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Collector/Collector/Sources/Collector/Tracing/Span/Span.swift",
+      "line": 99,
+      "symbol": "Span.Context.spanID",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Collector/Collector/Sources/Collector/Tracing/Span/Span.swift",
+      "line": 102,
+      "symbol": "Span.Reference",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Collector/Collector/Sources/Collector/Tracing/Span/Span.swift",
+      "line": 106,
+      "symbol": "Span.Reference.Kind",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Collector/Collector/Sources/Collector/Tracing/Span/Span.swift",
+      "line": 107,
+      "symbol": "Span.Reference.Kind.childOf",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Collector/Collector/Sources/Collector/Tracing/Span/Span.swift",
+      "line": 108,
+      "symbol": "Span.Reference.Kind.followsFrom",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Collector/Collector/Sources/Collector/Tracing/Span/Span.swift",
+      "line": 113,
+      "symbol": "Span.Reference.kind",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Collector/Collector/Sources/Collector/Tracing/Span/Span.swift",
+      "line": 114,
+      "symbol": "Span.Reference.context",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Collector/Collector/Sources/Collector/Tracing/Span/Span.swift",
+      "line": 118,
+      "symbol": "Span.Reference.child(of:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Collector/Collector/Sources/Collector/Tracing/Span/Span.swift",
+      "line": 122,
+      "symbol": "Span.Reference.follows(from:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Collector/Collector/Sources/Collector/Tracing/Span/Span.swift",
+      "line": 132,
+      "symbol": "Span",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Collector/Collector/Sources/Collector/Tracing/Span/Tag.swift",
+      "line": 2,
+      "symbol": "Tags",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Collector/Collector/Sources/Collector/Tracing/Span/Tag.swift",
+      "line": 4,
+      "symbol": "Tags",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Collector/Collector/Sources/Collector/Tracing/Span/Tag.swift",
+      "line": 6,
+      "symbol": "Tags.array",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Collector/Collector/Sources/Collector/Tracing/Span/Tag.swift",
+      "line": 12,
+      "symbol": "Tag",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Collector/Collector/Sources/Collector/Tracing/Span/Tag.swift",
+      "line": 16,
+      "symbol": "Tag.key",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Collector/Collector/Sources/Collector/Tracing/Span/Tag.swift",
+      "line": 17,
+      "symbol": "Tag.value",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Collector/Collector/Sources/Collector/Tracing/Span/Tag.swift",
+      "line": 21,
+      "symbol": "Tag.init(key:value:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Collector/Collector/Sources/Collector/Tracing/Span/Tag.swift",
+      "line": 30,
+      "symbol": "Tag",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Collector/Collector/Sources/Collector/Tracing/Span/Tag.swift",
+      "line": 32,
+      "symbol": "Tag.Key",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Collector/Collector/Sources/Collector/Tracing/Span/Tag.swift",
+      "line": 34,
+      "symbol": "Tag.Value",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Collector/Collector/Sources/Collector/Tracing/Span/Tag.swift",
+      "line": 35,
+      "symbol": "Tag.Value.string(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Collector/Collector/Sources/Collector/Tracing/Span/Tag.swift",
+      "line": 36,
+      "symbol": "Tag.Value.double(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Collector/Collector/Sources/Collector/Tracing/Span/Tag.swift",
+      "line": 37,
+      "symbol": "Tag.Value.boolean(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Collector/Collector/Sources/Collector/Tracing/Span/Tag.swift",
+      "line": 38,
+      "symbol": "Tag.Value.integer(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Collector/Collector/Sources/Collector/Tracing/Span/Tag.swift",
+      "line": 39,
+      "symbol": "Tag.Value.data(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Collector/Collector/Sources/Collector/Tracing/Tracer/BasicTracer.swift",
+      "line": 2,
+      "symbol": "BasicTracer",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Collector/Collector/Sources/Collector/Tracing/Tracer/BasicTracer.swift",
+      "line": 6,
+      "symbol": "BasicTracer.agent",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Collector/Collector/Sources/Collector/Tracing/Tracer/BasicTracer.swift",
+      "line": 7,
+      "symbol": "BasicTracer.sampling",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Collector/Collector/Sources/Collector/Tracing/Tracer/BasicTracer.swift",
+      "line": 13,
+      "symbol": "BasicTracer.init(agent:sampling:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Collector/Collector/Sources/Collector/Tracing/Tracer/BasicTracer.swift",
+      "line": 23,
+      "symbol": "BasicTracer.span(name:reference:startTime:isSampled:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Collector/Collector/Sources/Collector/Tracing/Tracer/BasicTracer.swift",
+      "line": 41,
+      "symbol": "BasicTracer.report(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Collector/Collector/Sources/Collector/Tracing/Tracer/SamplingStrategy.swift",
+      "line": 2,
+      "symbol": "SamplingStrategy",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Collector/Collector/Sources/Collector/Tracing/Tracer/SamplingStrategy.swift",
+      "line": 3,
+      "symbol": "SamplingStrategy.isSampled(open:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Collector/Collector/Sources/Collector/Tracing/Tracer/SamplingStrategy.swift",
+      "line": 6,
+      "symbol": "Sampling",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Collector/Collector/Sources/Collector/Tracing/Tracer/SamplingStrategy.swift",
+      "line": 10,
+      "symbol": "Sampling.strategy",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Collector/Collector/Sources/Collector/Tracing/Tracer/SamplingStrategy.swift",
+      "line": 14,
+      "symbol": "Sampling.init(strategy:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Collector/Collector/Sources/Collector/Tracing/Tracer/SamplingStrategy.swift",
+      "line": 22,
+      "symbol": "Sampling",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Collector/Collector/Sources/Collector/Tracing/Tracer/SamplingStrategy.swift",
+      "line": 34,
+      "symbol": "Sampling.constant(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Collector/Collector/Sources/Collector/Tracing/Tracer/SamplingStrategy.swift",
+      "line": 42,
+      "symbol": "Sampling",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Collector/Collector/Sources/Collector/Tracing/Tracer/SamplingStrategy.swift",
+      "line": 54,
+      "symbol": "Sampling.probability(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Collector/Collector/Sources/Collector/Tracing/Tracer/SamplingStrategy.swift",
+      "line": 63,
+      "symbol": "Sampling",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Collector/Collector/Sources/Collector/Tracing/Tracer/SamplingStrategy.swift",
+      "line": 75,
+      "symbol": "Sampling.limit(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Collector/Collector/Sources/Collector/Tracing/Tracer/Tracer.swift",
+      "line": 2,
+      "symbol": "Tracer",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Collector/Collector/Sources/Collector/Tracing/Tracer/Tracer.swift",
+      "line": 6,
+      "symbol": "Tracer.span(name:reference:startTime:isSampled:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Collector/Collector/Sources/Collector/Tracing/Tracer/Tracer.swift",
+      "line": 11,
+      "symbol": "Tracer.report(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Collector/Collector/Sources/Collector/Tracing/Tracer/Tracer.swift",
+      "line": 15,
+      "symbol": "Tracer",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Collector/Collector/Sources/Collector/Tracing/Tracer/Tracer.swift",
+      "line": 17,
+      "symbol": "Tracer.span(name:reference:startTime:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Collector/Collector/Sources/Collector/Tracing/Tracer/Tracer.swift",
+      "line": 43,
+      "symbol": "Tracer",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/runner/work/Collector/Collector"
+}
