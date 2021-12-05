@@ -1,5 +1,5 @@
 
-import Metrics
+@_exported import CoreMetrics
 
 public enum Metric {
 

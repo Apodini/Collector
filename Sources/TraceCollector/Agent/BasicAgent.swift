@@ -1,4 +1,5 @@
 
+@available(iOS 15, *)
 public final class BasicAgent: Agent {
 
     // MARK: Stored Properties
@@ -8,8 +9,6 @@ public final class BasicAgent: Agent {
 
     private var lastSendDate: Date
     private var spans = [Span]()
-
-    private let queue = DispatchQueue(label: String(describing: BasicAgent.self))
 
     // MARK: Initialization
 
@@ -37,9 +36,9 @@ public final class BasicAgent: Agent {
 
         guard !spansToSend.isEmpty else { return }
 
-        queue.async { [sender] in
+        Task { [sender] in
             do {
-                try sender.send(spansToSend).wait()
+                try await sender.send(spansToSend)
                 print(Self.self, #function, "success")
             } catch {
                 print(Self.self, #function, "failure:", error)
