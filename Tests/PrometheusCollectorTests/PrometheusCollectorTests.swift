@@ -1,15 +1,17 @@
 //
-//  CollectorTests.swift
-//  
+//  PrometheusCollectorTests.swift
+//
 //
 //  Created by Paul Schmiedmayer on 6/17/21.
 //
 
 import XCTest
-@testable import Collector
+@testable import PrometheusCollector
 
-final class CollectorTests: XCTestCase {
+final class PrometheusCollectorTests: XCTestCase {
+
     func testExample() {
         XCTAssertTrue(true)
     }
+
 }

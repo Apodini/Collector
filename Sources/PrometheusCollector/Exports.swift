@@ -1,2 +1,3 @@
 
-@_exported import Collector
+@_exported import MetricCollector
+@_exported import Prometheus

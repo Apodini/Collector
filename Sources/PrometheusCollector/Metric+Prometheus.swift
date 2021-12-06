@@ -1,6 +1,5 @@
 
-import Metrics
-import Prometheus
+import NIO
 
 extension Metric {
 
@@ -13,23 +12,23 @@ extension Metric {
         }
     }
 
-    public static func string(on eventLoop: EventLoop) -> EventLoopFuture<String> {
-        do {
-            let promise = eventLoop.makePromise(of: String.self)
-            try MetricsSystem.prometheus().collect(into: promise)
-            return promise.futureResult
-        } catch {
-            return eventLoop.makeFailedFuture(error)
+    @available(iOS 15, *)
+    public static func string() async throws -> String {
+        let prometheus = try MetricsSystem.prometheus()
+        return await withCheckedContinuation { continuation in
+            prometheus.collect {
+                continuation.resume(returning: $0)
+            }
         }
     }
 
-    public static func buffer(on eventLoop: EventLoop) -> EventLoopFuture<ByteBuffer> {
-        do {
-            let promise = eventLoop.makePromise(of: ByteBuffer.self)
-            try MetricsSystem.prometheus().collect(into: promise)
-            return promise.futureResult
-        } catch {
-            return eventLoop.makeFailedFuture(error)
+    @available(iOS 15, *)
+    public static func buffer() async throws -> ByteBuffer {
+        let prometheus = try MetricsSystem.prometheus()
+        return await withCheckedContinuation { continuation in
+            prometheus.collect {
+                continuation.resume(returning: $0)
+            }
         }
     }
 

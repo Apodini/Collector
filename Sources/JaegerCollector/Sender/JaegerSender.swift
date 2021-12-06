@@ -1,4 +1,5 @@
 
+@available(iOS 15, *)
 public final class JaegerSender: TraceSender {
 
     // MARK: Stored Properties
@@ -26,10 +27,15 @@ public final class JaegerSender: TraceSender {
 
     // MARK: Methods
 
-    public func send(_ spans: [Span]) -> EventLoopFuture<Void> {
+    public func send(_ spans: [Span]) async throws -> Void {
         let client = JaegerClient(channel: channel)
         let call = client.postSpans(request(for: spans))
-        return call.response.map { _ in }
+
+        return try await withCheckedThrowingContinuation { continuation in
+            call.response.whenComplete { result in
+                continuation.resume(with: result.map { _ in })
+            }
+        }
     }
 
     // MARK: Helpers

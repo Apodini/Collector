@@ -1,3 +1,3 @@
 
-@_exported import Collector
+@_exported import TraceCollector
 @_exported import GRPC
